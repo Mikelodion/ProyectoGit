@@ -103,7 +103,7 @@ body {
     font-size: 30px;
 }
 
-button {
+button, input {
     position: absolute;
     width: 200px;
     left: 50%;
@@ -136,7 +136,8 @@ i {
     margin-top: -4px;
     transition: margin 0.3s;
 }
-
+.inp-score { top: 90px; border: 1px solid black;font-size: 12px;}
+.inp-score::placeholder {opacity: 0.5;}
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
